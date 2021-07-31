@@ -1,0 +1,15 @@
+Am=.4; % Amplitude of modulating signal
+fm=2000; % Frequency of modulating signal
+Tm=1/fm; % Time period of modulating signal
+dt=Tm/100; %χρόνος δειγματοληψίας, βήμα
+t=0:dt:6*Tm-dt; % Total time for simulation
+ym=Am*cos(2*pi*fm*t); % Equation of modulating signal
+figure(1) % ειναι το  plane
+subplot(3,1,1); %γράφημα με τις 3 γραμμες 1 στηλη και ειμαστε στο πρώτο
+plot(t,ym), grid on;% Graphical representation of Modulating signal
+title ( ' Modulating Signal ');
+xlabel ( ' time(sec) ');
+ylabel (' Amplitude(volt) ');
+ylabel (' Amplitude(volt) ');
+%XXXXXXXXXXXXXXXXXXXXX carrier signal generation
+
