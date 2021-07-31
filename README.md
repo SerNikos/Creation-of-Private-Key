@@ -1,5 +1,5 @@
 # Creation-of-Private-Key
-We try to find private key with given that data:
+We try to create-find private key with given that data:
 
 p = 953AAB9B3F23ED593FBDC690CA10E703 
 q = C34EFC7C4C2369164E953553CDF94945
